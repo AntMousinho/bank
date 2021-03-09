@@ -95,46 +95,46 @@ class Bank {        // Responsibility - Store branches
 }
 
 
-// Test
-let printer = new Printer();
-let atm = new ATM();
-let antony = new Account();
-let james = new Account();
-let john = new Account();
-let amersham = new Branch();
-let chesham = new Branch();
-let natwest = new Bank();
+// // Test
+// let printer = new Printer();
+// let atm = new ATM();
+// let antony = new Account();
+// let james = new Account();
+// let john = new Account();
+// let amersham = new Branch();
+// let chesham = new Branch();
+// let natwest = new Bank();
 
-atm.deposit(antony, 2000, '08/03/21');
-atm.withdraw(antony, 300, '09/03/21');
-atm.deposit(antony, 100, '10/03/21');
+// atm.deposit(antony, 2000, '08/03/21');
+// atm.withdraw(antony, 300, '09/03/21');
+// atm.deposit(antony, 100, '10/03/21');
 
-atm.deposit(james, 1000, '05/02/21');
-atm.deposit(james, 300, '06/03/21');
-atm.withdraw(james, 800, '09/03/21');
+// atm.deposit(james, 1000, '05/02/21');
+// atm.deposit(james, 300, '06/03/21');
+// atm.withdraw(james, 800, '09/03/21');
 
-atm.deposit(john, 300, '07/03/21');
-atm.withdraw(john, 200, '09/03/21');
+// atm.deposit(john, 300, '07/03/21');
+// atm.withdraw(john, 200, '09/03/21');
 
-printer.printStatement(antony);
-printer.printStatement(james);
-printer.printStatement(john);
+// printer.printStatement(antony);
+// printer.printStatement(james);
+// printer.printStatement(john);
 
 
-amersham.addAccount(antony);
-amersham.addAccount(james);
+// amersham.addAccount(antony);
+// amersham.addAccount(james);
 
-printer.printAccounts(amersham);
-amersham.removeAccount(antony);
-printer.printAccounts(amersham);
+// printer.printAccounts(amersham);
+// amersham.removeAccount(antony);
+// printer.printAccounts(amersham);
 
-chesham.addAccount(john);
+// chesham.addAccount(john);
 
-printer.printAccounts(chesham);
+// printer.printAccounts(chesham);
 
-// chesham.removeAccount(antony);
+// // chesham.removeAccount(antony);
 
-natwest.addBranch(amersham);
-natwest.addBranch(chesham);
+// natwest.addBranch(amersham);
+// natwest.addBranch(chesham);
 
-printer.printBranches(natwest);
+// printer.printBranches(natwest);
