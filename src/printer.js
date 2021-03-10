@@ -3,15 +3,12 @@ class Printer {
         let output = "Account " + account.id + " - Summary:\nBalance: " + account.balance + "\nDate || Credit || Debit || Balance";
         let newBalance = account.balance;
         account.transactions.forEach(transaction => {
-            let string = "";
             if(transaction.amount > 0) {
-                string = "\n" + transaction.date + " || " + transaction.amount + " || 0.00 || " + newBalance;
-                newBalance -= transaction.amount;
+                output += "\n" + transaction.date + " || " + transaction.amount + " || 0.00 || " + newBalance;
             } else {
-                string = "\n" + transaction.date + " || 0.00 || " + (transaction.amount * -1) + " || " + newBalance;
-                newBalance -= transaction.amount;
+                output += "\n" + transaction.date + " || 0.00 || " + (transaction.amount * -1) + " || " + newBalance;
             }
-            output += string;
+            newBalance -= transaction.amount;
         });
         return output
     }

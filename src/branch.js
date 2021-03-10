@@ -4,7 +4,7 @@ class Branch {
         this._accounts = [];
     }
 
-    get id() {return this._id};
+    get id() {return this._id}
 
     get accounts() {return this._accounts}
 

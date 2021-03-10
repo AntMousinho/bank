@@ -5,7 +5,7 @@ class Account {
         this._transactions = [];
     }
 
-    get id() {return this._id};
+    get id() {return this._id}
 
     get balance() {return this._balance;}
 

@@ -4,7 +4,7 @@ const Account = require('./account');
 const Branch = require('./branch');
 const Bank = require('./bank');
 
-// // Test
+// // // Test
 // let printer = new Printer();
 // let atm = new ATM();
 // let antony = new Account();
@@ -30,24 +30,24 @@ const Bank = require('./bank');
 // // console.log(john.balance);
 
 // console.log(printer.printStatement(antony));
-// console.log(printer.printStatement(james));
-// console.log(printer.printStatement(john));
+// // console.log(printer.printStatement(james));
+// // console.log(printer.printStatement(john));
 
 
-// amersham.addAccount(antony);
-// amersham.addAccount(james);
+// // amersham.addAccount(antony);
+// // amersham.addAccount(james);
 
-// console.log(printer.printAccounts(amersham));
-// // amersham.removeAccount(antony);
 // // console.log(printer.printAccounts(amersham));
+// // // amersham.removeAccount(antony);
+// // // console.log(printer.printAccounts(amersham));
 
-// chesham.addAccount(john);
+// // chesham.addAccount(john);
 
-// console.log(printer.printAccounts(chesham));
+// // console.log(printer.printAccounts(chesham));
 
 // // // chesham.removeAccount(antony);
 
-// natwest.addBranch(amersham);
-// natwest.addBranch(chesham);
+// // natwest.addBranch(amersham);
+// // natwest.addBranch(chesham);
 
-// console.log(printer.printBranches(natwest));
+// // console.log(printer.printBranches(natwest));
